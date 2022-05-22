@@ -1,0 +1,332 @@
+*{
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family:'Ropa Sans' ;
+    src: url('../font/RopaSans-Regular.ttf') format('truetype');
+    font-weight:normal;
+    font-style:normal;
+}
+
+
+header{
+    height: 49px;
+    width: 100vw;
+    display: flex;
+    flex-wrap:nowrap;
+    flex-direction: row;
+    justify-content: center ;
+    align-items: center;
+    background: #FFFFFF;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.25);
+    margin-bottom: 20px;
+}
+
+.logo1 {
+    width: min-content;
+    margin-left: 44px;
+
+    font-family: 'Ropa Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 32px;
+
+    color: #777777;
+}
+
+.logo2 {
+    font-family: 'Ropa Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 11px;
+
+    color: #AAAAAA;
+}
+
+.spc1 {
+    flex-grow: 1;
+}
+
+#bordercorner{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} 
+
+#img1 {
+    width: 18px;
+    height: 12px;
+    margin-right: 45px;
+    align-items: center;
+}
+
+.section1{
+    width: 100vw;
+    height:259px;
+    margin-bottom: 37px;
+    margin-right: 45px; 
+   
+    background-image: url(../img/Rectangle\ 3.png);
+    background-repeat:no-repeat;
+    background-position: center;
+
+    align-items: center;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items:center;
+    justify-content: space-evenly;
+
+}
+
+.section2{
+    width: 100vw;
+    height:242px;
+    margin-bottom: 45px;
+    margin-right: 45px; 
+
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+
+.item1,.item2{
+    width: 256px;
+    height: 242px;
+    
+    background: #EEEEEE;
+    display: flex;
+    flex-direction: column;
+}
+
+.spaceitems{
+    background-color: yellow;
+    width: 96px;
+}
+
+#price-status{
+    margin: 9px 13px 0 12px;
+    display: flex;
+    justify-content: space-between;
+
+    font-family: 'Ropa Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 26.8px;
+
+    color: #AAAAAA;
+}
+
+#status{
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+#icon1{
+width: 56px;
+height: 21px;
+background-image: url(../img/icon-bottom-new.png);
+}
+
+#icon2{
+    width: 56px;
+    height: 21px;
+    background-image: url(../img/icon-bottom-sale.png);
+}
+    
+#texto1{
+    position:absolute;
+    padding: 4px 1px;
+    font-family: 'Ropa Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+color: #FFFFFF
+}
+
+#description{
+    margin-right: 13px;
+    margin-left:12px;
+    margin-bottom: 12px;
+    font-family: 'Ropa Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 10.72px;
+    text-align: justify;
+}
+
+.section3{
+    width: 100vw;
+    margin-bottom: 57px;
+    margin-right: 45px; 
+    list-style-type: none;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#title{
+    width: 608px;
+    height: 33px;
+    
+    font-family: 'Ropa Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    text-align:center;
+    line-height: 33px;
+
+    color: #888888;
+}
+
+#area1{
+    width: 608px;
+    height: 80px;
+    margin-top: 13px;
+
+    font-family: 'Ropa Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    text-align:center;
+    line-height: 80px;
+
+    color: #FFFFFF;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.25);
+    
+    background-image: url(../img/industrial.png);
+    opacity: 0.5;
+}
+
+#area2{
+    width: 608px;
+    height: 80px;
+    margin-top: 13px;
+
+    font-family: 'Ropa Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    text-align:center;
+    line-height: 80px;
+
+    color: #FFFFFF;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.25);
+    background-image: url(../img/modern.png);
+    opacity: 0.5;
+}
+
+#area3{
+    width: 608px;
+    height: 80px;
+    margin-top: 13px;
+
+    font-family: 'Ropa Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    text-align:center;
+    line-height: 80px;
+
+    color: #FFFFFF;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.25);
+    
+    background-image: url(../img/classic.png);
+    opacity: 0.5;
+}
+
+footer{
+    width: 100vw;
+    height: 243px;
+    display: flex;
+    justify-content: center;
+}
+
+.footerbox{
+    width: 697px;
+    height: 243px;
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+    align-items:center;
+    justify-content:center ;
+
+    background: #333333;
+}
+
+.google-maps{
+    width:252px;
+    height: 163px;
+
+}
+
+.spacefooter{
+    width: 177px;
+    height: 163px;
+
+}
+
+.contatos{
+    width:175px;
+    height: 163px;
+}
+
+.infos{
+    width: 175px;
+    height: 95px;
+    margin-bottom: 9px;
+
+    font-family: 'Ropa Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 13px;
+    text-align: justify;
+
+    color: #FFFFFF;
+}
+
+.title-socialmedia{
+    margin-bottom: 1.42px;
+
+    font-family: 'Ropa Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 13px;
+    display: flex;
+    align-items: center;
+    text-align: justify;
+
+    color: #FFFFFF;
+}
+
+.socialmedia{
+    display: flex;
+}
+
+#instagram{
+    margin-right: 17px;
+}
+
+#facebook{
+    margin-right: 17px;
+}
+
+#whatsapp{
+    margin-right: 17px;
+}
+
+
